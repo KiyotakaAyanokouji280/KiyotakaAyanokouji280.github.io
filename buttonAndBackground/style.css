@@ -1,0 +1,63 @@
+p,
+h2 {
+  position: relative;
+  z-index: 1;
+  margin: 20px 15%;
+}
+
+p {
+  opacity: 0.8;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.image1 {
+  height: 480px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("train.jpg");
+}
+
+.image2 {
+  height: 480px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("0x0.webp");
+}
+
+.image3 {
+  height: 480px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background: rgba(180, 180, 180);
+}
+
+.image4 {
+  height: 480px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background: rgba(180, 180, 180);
+}
+
+.text {
+  position: relative;
+}
+
+.text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150%;
+  height: 125%;
+  background: rgba(180, 180, 180);
+  rotate: -3deg;
+  translate: -50% -50%;
+}
